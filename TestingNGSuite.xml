@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- <listeners> <listener class-name="org.uncommons.reportng.HTMLReporter"></listener> 
+		</listeners> -->
+
+	<test name="LoginCSPTest" enabled="false">
+		<classes>
+			<class name="com.wsa.tests.LoginCSPTest"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://nppqa.edc.cingular.net/index.action?sysName=npp"></parameter>
+			<parameter name="Action" value="LoginCSPTest"></parameter>
+		</classes>
+	</test>
+	<test name="TableMaintenanceTest" enabled="false">
+		<classes>
+			<class name="com.wsa.tests.TableMaintenanceTest"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://nppqa.edc.cingular.net/index.action?sysName=npp"></parameter>
+			<parameter name="Action" value="TableMaintenanceTest"></parameter>
+		</classes>
+	</test>
+	<test name="TMAddEpfPartnerTest" enabled="false">
+		<classes>
+			<class name="com.wsa.tests.TMepfPartnerTest"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://nppqa.edc.cingular.net/index.action?sysName=npp"></parameter>
+			<parameter name="Action" value="TMAddEpfPartnerTest"></parameter>
+		</classes>
+	</test>
+	<test name="TMDeleteEpfPartnerTest" enabled="true">
+		<classes>
+			<class name="com.wsa.tests.TMepfPartnerTest"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://nppqa.edc.cingular.net/index.action?sysName=npp"></parameter>
+			<parameter name="Action" value="TMDeleteEpfPartnerTest"></parameter>
+		</classes>
+	</test>
+	<test name="TMEditEpfPartnerTest" enabled="false">
+		<classes>
+			<class name="com.wsa.tests.TMepfPartnerTest"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://nppqa.edc.cingular.net/index.action?sysName=npp"></parameter>
+			<parameter name="Action" value="TMEditEpfPartnerTest"></parameter>
+		</classes>
+	</test>
+
+</suite>
