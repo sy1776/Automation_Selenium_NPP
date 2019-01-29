@@ -20,6 +20,14 @@
 			<parameter name="Action" value="TableMaintenanceTest"></parameter>
 		</classes>
 	</test>
+	<test name="TMpinDenominationsTest" enabled="true">
+		<classes>
+			<class name="com.wsa.tests.TMpinDenominationsTest"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://nppqa.edc.cingular.net/index.action?sysName=npp"></parameter>
+			<parameter name="Action" value="TMpinDenominationsTest"></parameter>
+		</classes>
+	</test>
 	<test name="TMAddEpfPartnerTest" enabled="false">
 		<classes>
 			<class name="com.wsa.tests.TMepfPartnerTest"></class>
@@ -28,7 +36,7 @@
 			<parameter name="Action" value="TMAddEpfPartnerTest"></parameter>
 		</classes>
 	</test>
-	<test name="TMDeleteEpfPartnerTest" enabled="true">
+	<test name="TMDeleteEpfPartnerTest" enabled="false">
 		<classes>
 			<class name="com.wsa.tests.TMepfPartnerTest"></class>
 			<parameter name="BrowserToOpen" value="chrome"></parameter>
