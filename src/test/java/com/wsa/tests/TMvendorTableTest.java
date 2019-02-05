@@ -49,15 +49,15 @@ public class TMvendorTableTest extends MyTestNGBaseClass {
 		Assert.assertTrue(obj3.fDeleteVendorTable());
 	
 		/*
-		if (sAction.equalsIgnoreCase("TMAddEpfPartnerTest")) {
-			Assert.assertTrue(obj3.fgoToAddEpfPartner());
-			Assert.assertTrue(obj3.fAddEpfPartner());
-		} else if (sAction.equalsIgnoreCase("TMDeleteEpfPartnerTest")) {
+		if (sAction.equalsIgnoreCase("TMAddVendorTable")) {
+			Assert.assertTrue(obj3.fgoToAddVendorTable());
+			Assert.assertTrue(obj3.fAddVendorTable());
+		} else if (sAction.equalsIgnoreCase("TMEditVendorTable")) {
 			Assert.assertTrue(obj3.fClickEditLink());
-			Assert.assertTrue(obj3.fDeleteEpfPartner());
-		} else if (sAction.equalsIgnoreCase("TMEditEpfPartnerTest")) {
+			Assert.assertTrue(obj3.fEditVendorTable());
+		} else if (sAction.equalsIgnoreCase("TMDeleteVendorTable")) {
 			Assert.assertTrue(obj3.fClickEditLink());
-			Assert.assertTrue(obj3.fEditEpfPartner());
+			Assert.assertTrue(obj3.fDeleteVendorTable());
 		}
 		*/
 	}

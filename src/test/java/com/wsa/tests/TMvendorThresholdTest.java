@@ -49,15 +49,15 @@ public class TMvendorThresholdTest extends MyTestNGBaseClass {
 		Assert.assertTrue(obj3.fDeleteVendorThresholds());
 	
 		/*
-		if (sAction.equalsIgnoreCase("TMAddEpfPartnerTest")) {
-			Assert.assertTrue(obj3.fgoToAddEpfPartner());
-			Assert.assertTrue(obj3.fAddEpfPartner());
-		} else if (sAction.equalsIgnoreCase("TMDeleteEpfPartnerTest")) {
+		if (sAction.equalsIgnoreCase("TMAddAddVendorThresholds")) {
+			Assert.assertTrue(obj3.fgoToAddVendorThresholds());
+			Assert.assertTrue(obj3.fAddVendorThresholds());
+		} else if (sAction.equalsIgnoreCase("TMEditVendorThresholds")) {
 			Assert.assertTrue(obj3.fClickEditLink());
-			Assert.assertTrue(obj3.fDeleteEpfPartner());
-		} else if (sAction.equalsIgnoreCase("TMEditEpfPartnerTest")) {
+			Assert.assertTrue(obj3.fEditVendorThresholds());
+		} else if (sAction.equalsIgnoreCase("TMDeleteVendorThresholds")) {
 			Assert.assertTrue(obj3.fClickEditLink());
-			Assert.assertTrue(obj3.fEditEpfPartner());
+			Assert.assertTrue(obj3.fDeleteVendorThresholds());
 		}
 		*/
 	}

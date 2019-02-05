@@ -50,15 +50,15 @@ public class TMuserRoleRestrictionTest extends MyTestNGBaseClass {
 		Assert.assertTrue(obj3.fDeleteUserRoleRestriction());
 	
 		/*
-		if (sAction.equalsIgnoreCase("TMAddEpfPartnerTest")) {
-			Assert.assertTrue(obj3.fgoToAddEpfPartner());
-			Assert.assertTrue(obj3.fAddEpfPartner());
-		} else if (sAction.equalsIgnoreCase("TMDeleteEpfPartnerTest")) {
+		if (sAction.equalsIgnoreCase("TMAddUserRoleRestriction")) {
+			Assert.assertTrue(obj3.fgoToAddUserRoleRestriction());
+			Assert.assertTrue(obj3.fAddUserRoleRestriction());
+		} else if (sAction.equalsIgnoreCase("TMEditUserRoleRestriction")) {
 			Assert.assertTrue(obj3.fClickEditLink());
-			Assert.assertTrue(obj3.fDeleteEpfPartner());
-		} else if (sAction.equalsIgnoreCase("TMEditEpfPartnerTest")) {
+			Assert.assertTrue(obj3.fEditUserRoleRestrictions());
+		} else if (sAction.equalsIgnoreCase("TMEDeleteUserRoleRestriction")) {
 			Assert.assertTrue(obj3.fClickEditLink());
-			Assert.assertTrue(obj3.fEditEpfPartner());
+			Assert.assertTrue(obj3.fDeleteUserRoleRestriction());
 		}
 		*/
 	}

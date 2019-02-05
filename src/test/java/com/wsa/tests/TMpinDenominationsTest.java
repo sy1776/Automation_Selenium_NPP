@@ -48,15 +48,15 @@ public class TMpinDenominationsTest extends MyTestNGBaseClass {
 		Assert.assertTrue(obj3.fDeletePinDenominations());
 	
 		/*
-		if (sAction.equalsIgnoreCase("TMAddEpfPartnerTest")) {
-			Assert.assertTrue(obj3.fgoToAddEpfPartner());
-			Assert.assertTrue(obj3.fAddEpfPartner());
-		} else if (sAction.equalsIgnoreCase("TMDeleteEpfPartnerTest")) {
+		if (sAction.equalsIgnoreCase("TMAddPinDenominations")) {
+			Assert.assertTrue(obj3.fgoToAddPinDenominations());
+			Assert.assertTrue(obj3.fAddPinDenomination());
+		} else if (sAction.equalsIgnoreCase("TMEditPinDenominations")) {
 			Assert.assertTrue(obj3.fClickEditLink());
-			Assert.assertTrue(obj3.fDeleteEpfPartner());
-		} else if (sAction.equalsIgnoreCase("TMEditEpfPartnerTest")) {
+			Assert.assertTrue(obj3.fEditpinDenominations());
+		} else if (sAction.equalsIgnoreCase("TMDeletePinDenominations")) {
 			Assert.assertTrue(obj3.fClickEditLink());
-			Assert.assertTrue(obj3.fEditEpfPartner());
+			Assert.assertTrue(obj3.fDeletePinDenominations());
 		}
 		*/
 	}
