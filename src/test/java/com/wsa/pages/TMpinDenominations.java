@@ -61,7 +61,6 @@ public class TMpinDenominations {
 			WebElement txt_value = form.findElement(By.xpath("//tr/td/input[@name='denomination']"));
 			txt_value.clear();
 			new Select(oDriver.findElement(By.name("expirationPeriod"))).selectByVisibleText(dictionary.get(strActiveLife));
-			//new Select(form.findElement(By.xpath("//tr/td/select[@name='expirationPeriod']"))).selectByVisibleText(dictionary.get(strActiveLife));
 			
 			//fills input control in the form
 			txt_value.sendKeys(dictionary.get(strValue));

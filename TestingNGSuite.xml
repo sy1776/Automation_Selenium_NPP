@@ -20,7 +20,63 @@
 			<parameter name="Action" value="TableMaintenanceTest"></parameter>
 		</classes>
 	</test>
-	<test name="TMpinDenominationsTest" enabled="true">
+	<test name="TMcampaignMaintenanceTest" enabled="true">
+		<classes>
+			<class name="com.wsa.tests.TMcampaignMaintenanceTest"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://nppqa.edc.cingular.net/index.action?sysName=npp"></parameter>
+			<parameter name="Action" value="TMcampaignMaintenanceTest"></parameter>
+		</classes>
+	</test>
+	<test name="TMskuMaintenanceTest" enabled="false">
+		<classes>
+			<class name="com.wsa.tests.TMskuMaintenanceTest"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://nppqa.edc.cingular.net/index.action?sysName=npp"></parameter>
+			<parameter name="Action" value="TMskuMaintenanceTest"></parameter>
+		</classes>
+	</test>
+	<test name="TMuserRoleRestrictionTest" enabled="false">
+		<classes>
+			<class name="com.wsa.tests.TMuserRoleRestrictionTest"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://nppqa.edc.cingular.net/index.action?sysName=npp"></parameter>
+			<parameter name="Action" value="TMuserRoleRestrictionTest"></parameter>
+		</classes>
+	</test>
+	<test name="TMvendorTableTest" enabled="false">
+		<classes>
+			<class name="com.wsa.tests.TMvendorTableTest"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://nppqa.edc.cingular.net/index.action?sysName=npp"></parameter>
+			<parameter name="Action" value="TMvendorTableTest"></parameter>
+		</classes>
+	</test>
+	<test name="TMvendorThresholdTest" enabled="false">
+		<classes>
+			<class name="com.wsa.tests.TMvendorThresholdTest"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://nppqa.edc.cingular.net/index.action?sysName=npp"></parameter>
+			<parameter name="Action" value="TMvendorThresholdTest"></parameter>
+		</classes>
+	</test>
+	<test name="TMpinActiveLifeValuesTest" enabled="false">
+		<classes>
+			<class name="com.wsa.tests.TMpinActiveLifeValuesTest"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://nppqa.edc.cingular.net/index.action?sysName=npp"></parameter>
+			<parameter name="Action" value="TMpinActiveLifeValuesTest"></parameter>
+		</classes>
+	</test>
+	<test name="TMpinActiveLifeValuesTestDel" enabled="false">
+		<classes>
+			<class name="com.wsa.tests.TMpinActiveLifeValuesTest"></class>
+			<parameter name="BrowserToOpen" value="chrome"></parameter>
+			<parameter name="AppUrl" value="http://nppqa.edc.cingular.net/index.action?sysName=npp"></parameter>
+			<parameter name="Action" value="TMpinActiveLifeValuesTestDel"></parameter>
+		</classes>
+	</test>
+	<test name="TMpinDenominationsTest" enabled="false">
 		<classes>
 			<class name="com.wsa.tests.TMpinDenominationsTest"></class>
 			<parameter name="BrowserToOpen" value="chrome"></parameter>
