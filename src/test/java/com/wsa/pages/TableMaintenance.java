@@ -199,7 +199,8 @@ public class TableMaintenance {
 	
 	public boolean fGoToCampaignMaint() throws InterruptedException{
 		WebDriverWait wait=new WebDriverWait(oDriver, 20);
-		WebElement e = wait.until(ExpectedConditions.visibilityOfElementLocated(link_sku));
+		//WebElement e = wait.until(ExpectedConditions.visibilityOfElementLocated(link_campaignMaint));
+		WebElement e = oDriver.findElement(By.xpath("//a[contains(text(),'Campaign Maintenance')]"));
 		
 		if(e.isDisplayed()){
 			oExtentTest.log(LogStatus.INFO, "TableMaintenance|fGoToCampaignMaint()|Campaign Maintenance link is visible");

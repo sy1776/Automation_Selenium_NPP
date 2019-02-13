@@ -111,7 +111,7 @@ public class TMepfPartner {
 		try {
 			String strKeyID = "ID";
 			String strID = dictionary.get(strKeyID);
-			String strLink = "//a[@href='/tableEPF.action?updatePartnerID=" + strID + "']";
+			String strLink = "//a[@href='/tableDenom.action?updateDenomination=" + strID + "']";
 			
 			//if edit link is not found due to non-existed ID provided in Calendar file, it will hit the exception. 
 			//It will return the exception with 'NoSuchElementException.
