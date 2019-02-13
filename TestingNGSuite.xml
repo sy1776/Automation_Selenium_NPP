@@ -20,7 +20,7 @@
 			<parameter name="Action" value="TableMaintenanceTest"></parameter>
 		</classes>
 	</test>
-	<test name="TMAddEpfPartnerTest" enabled="false">
+	<test name="TMAddEpfPartnerTest" enabled="true">
 		<classes>
 			<class name="com.wsa.tests.TMepfPartnerTest"></class>
 			<parameter name="BrowserToOpen" value="chrome"></parameter>
@@ -28,7 +28,7 @@
 			<parameter name="Action" value="TMAddEpfPartnerTest"></parameter>
 		</classes>
 	</test>
-	<test name="TMDeleteEpfPartnerTest" enabled="true">
+	<test name="TMDeleteEpfPartnerTest" enabled="false">
 		<classes>
 			<class name="com.wsa.tests.TMepfPartnerTest"></class>
 			<parameter name="BrowserToOpen" value="chrome"></parameter>
